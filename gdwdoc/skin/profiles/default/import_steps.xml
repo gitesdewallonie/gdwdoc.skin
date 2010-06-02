@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="gdwdoc.skin.various"
+               version="20090325-01"
+               handler="gdwdoc.skin.setuphandlers.setupgdwdoc"
+               title="gdwdoc: miscellaneous import steps">
+    <dependency step="skins" />
+    Setup portal for gdwdoc skin.
+  </import-step>
+</import-steps>

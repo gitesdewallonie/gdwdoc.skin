@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="gdwdoc.skin">
+
+  <!-- File System Directory Views registration -->
+  <cmf:registerDirectory name="gdwdoc_skin_images"/>
+  <cmf:registerDirectory name="gdwdoc_skin_styles"/>
+  <cmf:registerDirectory name="gdwdoc_skin_templates"/>
+
+</configure>

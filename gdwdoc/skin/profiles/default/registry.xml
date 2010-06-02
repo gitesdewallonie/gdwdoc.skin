@@ -1,0 +1,12 @@
+<registry>
+  <record field="theme"
+          interface="collective.xdv.interfaces.ITransformSettings"
+          name="collective.xdv.interfaces.ITransformSettings.theme">
+    <value>src/gdwdoc.skin/gdwdoc/skin/skins/gdwdoc_skin_templates/index.html</value>
+  </record>    
+  <record field="rules"
+          interface="collective.xdv.interfaces.ITransformSettings"
+          name="collective.xdv.interfaces.ITransformSettings.rules">
+    <value>src/gdwdoc.skin/gdwdoc/skin/rules.xml</value>
+  </record>  
+</registry>
