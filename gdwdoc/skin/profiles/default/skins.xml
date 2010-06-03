@@ -12,7 +12,7 @@
     meta_type="Filesystem Directory View"
     directory="gdwdoc.skin:skins/gdwdoc_skin_templates"/>
 
- <skin-path name="GdwDocSkin" based-on="Plone Default">
+ <skin-path name="GdwDocSkin" based-on="Sunburst Theme">
   <layer name="gdwdoc_skin_images"
      insert-after="custom"/>
   <layer name="gdwdoc_skin_styles"

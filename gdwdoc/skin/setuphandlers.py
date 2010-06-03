@@ -22,7 +22,7 @@ def setupgdwdoc(context):
     if not ISite.providedBy(portal):
         enableSite(portal)
     setupLanguages(portal)
-    setupSimpleNavigationPortlet(portal, 'left')
+    # setupSimpleNavigationPortlet(portal, 'left')
 
 
 def setupLanguages(portal):
