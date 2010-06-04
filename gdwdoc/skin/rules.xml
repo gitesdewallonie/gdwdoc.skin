@@ -20,6 +20,10 @@
 
      <!-- <drop content="*[@class='documentActions']" /> -->
 
+     <!-- Search -->
+     <copy content="//*[@id='portal-searchbox']"
+           theme="//*[@id='search-form']" />
+
      <!-- Navigation -->
      <copy content="//*[@class='portlet portletNavigationTree']"
            theme="//*[@id='navigation']" />
