@@ -7,24 +7,15 @@ www.affinitic.be
 */
 
 
-* { padding: 0; margin: 0; }
-
-/* Mise en page */
 body{
-width: 780px;
-margin: auto;
-margin-top: 20px;
-margin-bottom: 10px;
-background-color: #E4D8BB;
+background-color:#E4D8BB;
+padding:0;
+margin:0;
+background-image:url(body-bckg.jpg);
+background-repeat:repeat-x;
+background-position:top;
 }
 
-#coin9{
-width: 19px;
-background-color: #E4D8BB;
-}
-/* Fin mise en page */
-
-/* Définition globale des styles */
 h3{
 font-size: 20px;
 color: #FFFFFF;
@@ -75,11 +66,10 @@ color: #FFFFFF;
 
 /* Style de page par odre de code */
 .input{
-background-image: url(../images/input.jpg);
+background-image: url(input.jpg);
 background-repeat: no-repeat;
 width: 186px;
 height: 19px;
-overflow: hidden;
 }
 
 .input input{
@@ -129,11 +119,10 @@ margin-bottom: 16px;
 #support{
 width: 272px;
 height: 132px;
-overflow: hidden;
 }
 
 #contenu{
-width: 489px;
+width:500px;
 background-color: #E4D8BB;
 }
 
@@ -201,7 +190,6 @@ margin-top: 20px;
 margin-left: 20px;
 }
 
-/* 2ème page */
 #texte{
 padding-left: 14px;
 padding-right: 7px;
@@ -213,4 +201,43 @@ color: #48443B;
 
 #left-column {
 background-color: #48443B;
+}
+
+
+
+#logo{
+width:272px;
+height:62px;
+padding-top:24px;
+background-image:url(logo.png);
+background-repeat:no-repeat;
+text-align:center;
+color:#fff;
+}
+
+#gdwdoc{
+background-color:#a69b7f;
+width:980px;
+margin:auto;
+margin-top:48px;
+}
+
+#navigation{
+background-image:url(fond_navigation_box.png);
+height:300px;
+}
+
+#navigation ul{
+list-style-type:none;
+list-style-image:none;
+}
+
+#gdwdoc-languages a{
+color:#aaa;
+text-decoration:none;
+}
+
+#gdwdoc-languages a:hover{
+color:#ff7200;
+text-decoration:none;
 }
