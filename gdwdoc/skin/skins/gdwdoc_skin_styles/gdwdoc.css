@@ -1,239 +1,216 @@
-/* Document CSS ::: KAC Art - www.kacart.be */
+/*
+Gites de Wallonie
+Plone Documentation
+
+Affinitic 2010
+www.affinitic.be
+*/
+
 
 * { padding: 0; margin: 0; }
 
 /* Mise en page */
-body 
-{
-	width: 780px;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	background-color: #E4D8BB;
+body{
+width: 780px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 10px;
+background-color: #E4D8BB;
 }
 
-#coin9
-{
-	width: 19px;
-	background-color: #E4D8BB;
+#coin9{
+width: 19px;
+background-color: #E4D8BB;
 }
 /* Fin mise en page */
 
 /* Définition globale des styles */
-h3
-{
-	font-size: 20px;
-	color: #FFFFFF;
-	font-family: "Helvetica Condensed", Arial;
-	margin-bottom: 12px;
+h3{
+font-size: 20px;
+color: #FFFFFF;
+font-family: "Helvetica Condensed", Arial;
+margin-bottom: 12px;
 }
 
-h2
-{
-	font-size: 18px;
-	color: #48443B;
-	font-family: "Helvetica Condensed", Arial;
-	margin-bottom: 12px;
+h2{
+font-size: 18px;
+color: #48443B;
+font-family: "Helvetica Condensed", Arial;
+margin-bottom: 12px;
 }
 
-p
-{
-	color: #FFFFFF;
-	font-family: Tahoma, "Trebuchet MS", Arial, serif;
-	font-size: 11px;
-	margin-bottom: 9px;
+p{
+color: #FFFFFF;
+font-family: Tahoma, "Trebuchet MS", Arial, serif;
+font-size: 11px;
+margin-bottom: 9px;
 }
 
-li
-{
-	color: #48443B;
-	font-family: Tahoma, "Trebuchet MS", Arial, serif;
-	font-size: 11px;
-	margin-bottom: 9px;
+li{
+color: #48443B;
+font-family: Tahoma, "Trebuchet MS", Arial, serif;
+font-size: 11px;
+margin-bottom: 9px;
 }
 
-ul
-{
-	list-style-image: url(../images/ul.gif);
+ul{
+list-style-image: url(ul.gif);
 }
 
-a img
-{
-	border: none;
+a img{
+border: none;
 }
 
-a, a:visited
-{
-	color: #FFFFFF;
-	text-decoration: underline;
+a, a:visited{
+color: #FFFFFF;
+text-decoration: underline;
 }
 
-a:hover
-{
-	color: #FFFFFF;
+a:hover{
+color: #FFFFFF;
 }
 /* Fin de la définition globale */
 
+
+
 /* Style de page par odre de code */
-.input
-{
-	background-image: url(../images/input.jpg);
-	background-repeat: no-repeat;
-	width: 186px;
-	height: 19px;
-	overflow: hidden;
+.input{
+background-image: url(../images/input.jpg);
+background-repeat: no-repeat;
+width: 186px;
+height: 19px;
+overflow: hidden;
 }
 
-.input input
-{
-	border: none;
-	background: none;
-	width: 150px;
-	height: 19px;
-	text-indent: 30px;
+.input input{
+border: none;
+background: none;
+width: 150px;
+height: 19px;
+text-indent: 30px;
 }
 
-.input .ok
-{
-	width: 30px;
-	height: 19px;
-	background-color: #FFFFFF;
-	border: 1px black solid;
-	color: #999999;
-	visibility: hidden;
+.input .ok{
+width: 30px;
+height: 19px;
+background-color: #FFFFFF;
+border: 1px black solid;
+color: #999999;
+visibility: hidden;
 }
 
-#recent
-{
-	background-color: #48443B;
-	width: 272px;
+#recent{
+background-color: #48443B;
+width: 272px;
 }
 
-#portlet_recent
-{
-	margin-left: 24px;
-	margin-right: 13px;
-	padding-top: 7px;
+#portlet_recent{
+margin-left: 24px;
+margin-right: 13px;
+padding-top: 7px;
 }
 
-.gras
-{
-	color: #FF7200;
-	font-weight: bold;
+.gras{
+color: #FF7200;
+font-weight: bold;
 }
 
-.souligne1, #contenu .souligne1
-{
-	color: #FF7200;
-	font-weight: bold;
-	text-decoration: underline;
+.souligne1, #contenu .souligne1{
+color: #FF7200;
+font-weight: bold;
+text-decoration: underline;
 }
 
-.ligne_espace
-{
-	margin-top: 20px;
-	margin-bottom: 16px;
+.ligne_espace{
+margin-top: 20px;
+margin-bottom: 16px;
 }
 
-#support
-{
-	width: 272px;
-	height: 132px;
-	overflow: hidden;
+#support{
+width: 272px;
+height: 132px;
+overflow: hidden;
 }
 
-#contenu
-{
-	width: 489px;
-	background-color: #E4D8BB;
+#contenu{
+width: 489px;
+background-color: #E4D8BB;
 }
 
-#bloc1
-{
-	float: left;
-	width: 260px;
-	margin-left: 25px;
+#bloc1{
+float: left;
+width: 260px;
+margin-left: 25px;
 }
 
-#bloc2
-{
-	float: right;
-	width: 180px;
-}
-#bloc1 p, #bloc3 p
-{
-	color: #48443B;
+#bloc2{
+float: right;
+width: 180px;
 }
 
-.ligne_espace2
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
+#bloc1 p, #bloc3 p{
+color: #48443B;
 }
 
-.souligne_simple
-{
-	text-decoration: underline;
-}
-#bloc4
-{
-	float: right;
-	width: 200px;
+.ligne_espace2{
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
-#bloc4 h2
-{
-	text-indent: 10px;
-	color: #48443B;
+.souligne_simple{
+text-decoration: underline;
 }
 
-#bloc4 p
-{
-	text-indent: 19px;
-	color: #48443B;
+#bloc4{
+float: right;
+width: 200px;
 }
 
-#bloc4 a
-{
-	color: #48443B;
+#bloc4 h2{
+text-indent: 10px;
+color: #48443B;
 }
 
-#bloc3
-{
-	float: left;
-	width: 260px;
-	margin-left: 25px;
+#bloc4 p{
+text-indent: 19px;
+color: #48443B;
 }
 
-#copyright
-{
-	width: 489px;
-	height: 77px;
-	overflow: hidden;
-	background-color: #000000;
+#bloc4 a{
+color: #48443B;
 }
 
-#txt
-{
-	color: #FFFFFF;
-	font-family:  Tahoma, "Trebuchet MS", Arial, serif;
-	font-size: 11px;
-	margin-top: 20px;
-	margin-left: 20px;
+#bloc3{
+float: left;
+width: 260px;
+margin-left: 25px;
+}
+
+#copyright{
+width: 489px;
+height: 77px;
+overflow: hidden;
+background-color: #000000;
+}
+
+#txt{
+color: #FFFFFF;
+font-family:  Tahoma, "Trebuchet MS", Arial, serif;
+font-size: 11px;
+margin-top: 20px;
+margin-left: 20px;
 }
 
 /* 2ème page */
-#texte
-{
-	padding-left: 14px;
-	padding-right: 7px;
+#texte{
+padding-left: 14px;
+padding-right: 7px;
 }
 
-#texte p
-{
-	color: #48443B;
+#texte p{
+color: #48443B;
 }
 
 #left-column {
-    background-color: #48443B;
+background-color: #48443B;
 }
