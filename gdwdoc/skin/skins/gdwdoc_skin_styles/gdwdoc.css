@@ -199,12 +199,8 @@ padding-right: 7px;
 color: #48443B;
 }
 
-#left-column {
-background-color: #48443B;
-}
 
-
-
+/**** INTERFACE ****/
 #logo{
 width:272px;
 height:62px;
@@ -240,4 +236,26 @@ text-decoration:none;
 #gdwdoc-languages a:hover{
 color:#ff7200;
 text-decoration:none;
+}
+
+#colonne-left-zone-portlet{
+background-color:#48443b;
+}
+
+#colonne-left-footer{
+background-color:#48443b;
+vertical-align:bottom;
+padding-bottom:13px;
+}
+
+#logo-gdw{
+margin:auto;
+width:110px;
+}
+
+#gdw-coordonnee{
+color:#aaa;
+font-size:0.8em;
+text-align:center;
+margin-top:10px;
 }
