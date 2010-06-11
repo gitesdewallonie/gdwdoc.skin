@@ -121,10 +121,6 @@ width: 272px;
 height: 132px;
 }
 
-#contenu{
-width:500px;
-background-color: #E4D8BB;
-}
 
 #bloc1{
 float: left;
@@ -193,10 +189,19 @@ margin-left: 20px;
 #texte{
 padding-left: 14px;
 padding-right: 7px;
+background-image:url(bandeau_sup_jambe.png);
+background-repeat:no-repeat;
+background-position:479px top;
 }
 
 #texte p{
 color: #48443B;
+}
+
+/* PLONE DOCUMENT */
+#contenu{
+width:660px;
+background-color: #E4D8BB;
 }
 
 
