@@ -213,14 +213,21 @@ margin-top:0px;
 }
 
 /**** INTERFACE ****/
-#logo{
-width:272px;
-height:62px;
+#logo-sup{
+width:271px;
+height:63px;
 padding-top:24px;
-background-image:url(logo.png);
+background-image:url(fnd_logo_sup.png);
 background-repeat:no-repeat;
 text-align:center;
 color:#fff;
+}
+
+#left-sup{
+/*background-color:#534e39;*/
+background-image:url(fnd_left_sup.png);
+background-repeat:no-repeat;
+background-position:center 50px;
 }
 
 #gdwdoc{
@@ -231,7 +238,9 @@ margin-top:48px;
 }
 
 #navigation{
+/*background-color:#534e39;*/
 background-image:url(fond_navigation_box.png);
+background-repeat:no-repeat;
 height:300px;
 }
 
