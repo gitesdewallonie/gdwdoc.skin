@@ -198,12 +198,19 @@ background-position:479px top;
 color: #48443B;
 }
 
-/* PLONE DOCUMENT */
+
+/****  PLONE ****/
+/* plone document*/
 #contenu{
 width:660px;
 background-color: #E4D8BB;
 }
 
+#portal-breadcrumbs {
+font-size:80%;
+margin-bottom:1em;
+margin-top:0px;
+}
 
 /**** INTERFACE ****/
 #logo{
