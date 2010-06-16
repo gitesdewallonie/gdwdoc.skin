@@ -21,7 +21,7 @@ def setupgdwdoc(context):
     portal = context.getSite()
     if not ISite.providedBy(portal):
         enableSite(portal)
-    setupLanguages(portal)
+    # setupLanguages(portal)
     # setupSimpleNavigationPortlet(portal, 'left')
 
 

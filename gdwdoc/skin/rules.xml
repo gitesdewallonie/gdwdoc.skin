@@ -34,7 +34,7 @@
 
 
      <!-- Language selector -->
-     <copy content="//*[@id='portal-languageselector']/*"
-           theme="//*[@id='gdwdoc-languages']" />
+     <!-- <copy content="//*[@id='portal-languageselector']/*"
+           theme="//*[@id='gdwdoc-languages']" /> -->
 
 </rules>
