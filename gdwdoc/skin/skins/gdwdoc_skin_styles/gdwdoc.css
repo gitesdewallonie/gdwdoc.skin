@@ -321,3 +321,10 @@ font-size:0.8em;
 text-align:center;
 margin-top:10px;
 }
+
+/*** PLONE ELEMENT ***/
+#content-core{
+background-image:url(lecoq2.png);
+background-repeat:no-repeat;
+background-position:right bottom;
+}
