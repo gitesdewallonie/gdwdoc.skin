@@ -223,6 +223,12 @@ text-align:center;
 color:#fff;
 }
 
+#logo-sup a{
+text-decoration:none;
+}
+
+
+
 #left-sup{
 /*background-color:#534e39;*/
 background-image:url(fnd_left_sup.png);
