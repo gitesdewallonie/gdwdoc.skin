@@ -328,6 +328,25 @@ text-align:center;
 margin-top:10px;
 }
 
+
+#partenaire{
+width:100%;
+
+}
+#feder-info{
+float:right;
+color:#999;
+font-size:0.6em;
+font-weight:normal;
+text-align:right;
+margin-bottom:4px;
+margin-right:3px;
+}
+#feder-logo{
+float:right;
+margin-right:5px;
+}
+
 /*** PLONE ELEMENT ***/
 #content-core{
 background-image:url(lecoq2.png);
