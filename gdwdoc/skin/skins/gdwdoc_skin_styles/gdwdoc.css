@@ -267,6 +267,9 @@ color:#d0c9a1 !important;
 color:#fff9cf !important;
 }
 
+#navigation .navTreeCurrentItem{
+color:#fff9cf !important;
+} 
 
 #navigation ul{
 list-style-type:none;
@@ -281,7 +284,15 @@ background-repeat:no-repeat;
 background-position:center bottom;
 border-bottom:none;
 line-height:2em;
-padding:0.25em 2em;
+padding:0.25em 53px;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem  {
+background-color:transparent;
+border-left:1em solid transparent;
+margin-left:-1em;
+margin-right:-1em;
+background-image:url(fleche_over.png);
 }
 
 dl.portlet a{
@@ -401,7 +412,18 @@ border-bottom:none;
 }
 
 .contenttype-document {
-background-image:url("ul.gif");
+background-image:url(ul.gif);
 background-repeat:no-repeat;
 background-position:12px center;
 }
+
+.contenttype-folder {
+background-image:url(fleche.png);
+background-repeat:no-repeat;
+background-position:3px center;
+}
+
+.contenttype-folder:hover {
+background-image:url(fleche_over.png);
+}
+
