@@ -218,6 +218,22 @@ margin-bottom:1em;
 margin-top:0px;
 }
 
+#document-toc{
+background-color:#d7cbae;
+border:1px solid #cdc1a4;
+}
+
+#document-toc .portletHeader{
+background-color:transparent;
+border-bottom:1px solid #cdc1a4;
+padding-left:15px;
+}
+dl.toc dt {
+font-weight:normal;
+margin-left:0;
+text-transform:uppercase;
+}
+
 /**** INTERFACE ****/
 #logo-sup{
 width:271px;
@@ -329,6 +345,8 @@ border:1px solid #f00;
 }
 
 #portlet_recent {
+background-image:url(fond_navigation_box.png);
+background-repeat:repeat-y;
 background-color:#48443b;
 margin-left:24px;
 margin-right:13px;
