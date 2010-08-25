@@ -52,6 +52,8 @@ margin-bottom: 9px;
 
 ul{
 list-style-image: url(ul.gif);
+color:#48443B;
+font:100% Arial,FreeSans,sans-serif;
 }
 
 a img{
@@ -425,7 +427,7 @@ border-bottom:none;
 }
 
 #content a:visited{
-color:#bbb;
+/*color:#779;*/
 border-bottom:none;
 }
 
@@ -443,5 +445,10 @@ background-position:3px center;
 
 .contenttype-folder:hover {
 background-image:url(fleche_over.png);
+}
+
+#content-core{
+color:#48443B;
+font:85% Arial,FreeSans,sans-serif;
 }
 
