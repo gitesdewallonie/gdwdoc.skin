@@ -214,6 +214,11 @@ width:660px;
 background-color: #E4D8BB;
 }
 
+.documentActions{
+background-color:transparent;
+}
+
+
 #portal-breadcrumbs {
 font-size:80%;
 margin-bottom:1em;
