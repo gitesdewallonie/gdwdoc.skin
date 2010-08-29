@@ -102,12 +102,6 @@ background-color: #48443B;
 width: 272px;
 }
 
-#portlet_recent{
-margin-left: 24px;
-margin-right: 13px;
-padding-top: 7px;
-}
-
 .gras{
 color: #FF7200;
 font-weight: bold;
@@ -352,13 +346,31 @@ border:1px solid #f00;
 }
 
 #portlet_recent {
-background-image:url(fond_navigation_box.png);
+/*background-image:url(fond_navigation_box.png);*/
+background-image:url(bg_portlet_recent.png);
 background-repeat:repeat-y;
 background-color:#48443b;
-margin-left:24px;
-margin-right:13px;
+margin:50px 3px 5px 4px;
 padding-top:7px;
 }
+
+dl.portlet dt, div.portletHeader {
+background:none repeat scroll 0 0 #655F4A;
+line-height:2.5em;
+padding:0 1em;
+text-align:right;
+}
+
+dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:focus, dl.portlet dt a:hover {
+border:medium none;
+color:#d79900;
+display:block;
+}
+
+#portlet_recent dl.portlet dd.portletItem{ 
+padding:1em 1em 1em 20px;
+}
+
 
 #colonne-left-zone-portlet{
 background-color:#48443b;
