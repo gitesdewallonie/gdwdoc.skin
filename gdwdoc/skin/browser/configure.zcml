@@ -3,11 +3,21 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="gdwdoc.skin">
-
+    
+    <interface
+        interface=".interfaces.IGdwDocTheme"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="GdwDocSkin"
+        />
     <!-- Customize the navigation portlet -->
     <plone:portletRenderer
            portlet="plone.app.portlets.portlets.navigation.INavigationPortlet"
            layer=".interfaces.IGdwDocTheme"
            class=".navigation.MyNavRenderer"
+           />
+    <plone:portletRenderer
+           portlet="plone.app.portlets.portlets.recent.IRecentPortlet"
+           layer=".interfaces.IGdwDocTheme"
+           class=".recent.MyRecentRenderer"
            />
 </configure>

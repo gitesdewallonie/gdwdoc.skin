@@ -355,22 +355,45 @@ padding-top:7px;
 }
 
 dl.portlet dt, div.portletHeader {
-background:none repeat scroll 0 0 #655F4A;
+background:none repeat scroll 0 0  #918b76; /*transparent;*/ /*#655F4A;*/
 line-height:2.5em;
 padding:0 1em;
 text-align:right;
+border-top: 1px solid #7c7561;
+border-bottom: 1px solid #7c7561;
 }
 
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:focus, dl.portlet dt a:hover {
 border:medium none;
-color:#d79900;
+color:#ffd531; /*#d79900;*/
 display:block;
+}
+
+dl.portlet a:link, dl.portlet a:visited {
+color:#ff7600;
+border-bottom:none;
+}
+
+dl.portlet dd.portletFooter{
+text-align:right;
+padding:5px;
+border-top: 1px solid #7c7561;
 }
 
 #portlet_recent dl.portlet dd.portletItem{ 
 padding:1em 1em 1em 20px;
 }
 
+#portlet_recent dd a{
+padding-left:13px;
+background-image:url(fleche_recent.png);
+background-repeat:no-repeat;
+background-position:left center;
+}
+
+#portlet_recent dd.portletFooter a{
+background-image:none;
+}
 
 #colonne-left-zone-portlet{
 background-color:#48443b;
