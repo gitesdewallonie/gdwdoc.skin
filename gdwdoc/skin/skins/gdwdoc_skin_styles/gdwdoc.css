@@ -71,8 +71,14 @@ color: #fff;
 /* Fin de la définition globale */
 
 
+/* Style de page par odre de code */ 
+#nostromos{
+background-image:url(lecoq2.png);
+background-repeat:no-repeat;
+background-position:right bottom;
 
-/* Style de page par odre de code */
+}
+
 .input{
 background-image: url(input.jpg);
 background-repeat: no-repeat;
@@ -200,12 +206,11 @@ background-position:482px 0px;
 color: #48443B;
 }
 
-
 /****  PLONE ****/
 /* plone document*/
 #contenu{
 width:660px;
-background-color: #E4D8BB;
+background-color:transparent;
 }
 
 .documentActions{
@@ -437,9 +442,6 @@ margin-right:5px;
 
 /*** PLONE ELEMENT ***/
 #content-core{
-background-image:url(lecoq2.png);
-background-repeat:no-repeat;
-background-position:right bottom;
 }
 
 #content .state-published {
@@ -491,3 +493,9 @@ color:#48443B;
 font:85% Arial,FreeSans,sans-serif;
 }
 
+#content .documentDescription, #content #description, #content .description {
+color:#444;
+font:bold 1.25em "Helvetica Neue",Arial,FreeSans,sans-serif;
+margin-left:0;
+margin-right:150px;
+}

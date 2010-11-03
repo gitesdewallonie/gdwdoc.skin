@@ -32,7 +32,6 @@
      <copy content="//*[@class='portlet portletRecent']"
            theme="//*[@id='portlet_recent']" />
 
-
      <!-- Language selector -->
      <!-- <copy content="//*[@id='portal-languageselector']/*"
            theme="//*[@id='gdwdoc-languages']" /> -->
