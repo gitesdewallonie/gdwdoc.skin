@@ -72,12 +72,17 @@ color: #fff;
 
 
 /* Style de page par odre de code */ 
-#nostromos{
+#mainTexte{
 background-image:url(lecoq2.png);
 background-repeat:no-repeat;
 background-position:right bottom;
-
 }
+
+#document-toc {
+background-color:#D7CBAE;
+border:1px solid #CDC1A4;
+}
+
 
 .input{
 background-image: url(input.jpg);

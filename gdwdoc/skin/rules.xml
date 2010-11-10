@@ -29,7 +29,7 @@
            theme="//*[@id='navigation']" />
 
      <!-- Recent portlet -->
-     <copy content="//*[@class='portlet portletRecent']"
+     <copy content="//*[@class='portlet dernieres-publications']"
            theme="//*[@id='portlet_recent']" />
 
      <!-- Language selector -->
