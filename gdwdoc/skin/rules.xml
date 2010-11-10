@@ -29,8 +29,8 @@
            theme="//*[@id='navigation']" />
 
      <!-- Recent portlet -->
-     <copy content="//*[@class='portlet dernieres-publications']"
-           theme="//*[@id='portlet_recent']" />
+     <copy content="//*[@class='portlet portletCollection']"
+           theme="//*[@id='portlet_derniere_publication']" />
 
      <!-- Language selector -->
      <!-- <copy content="//*[@id='portal-languageselector']/*"
