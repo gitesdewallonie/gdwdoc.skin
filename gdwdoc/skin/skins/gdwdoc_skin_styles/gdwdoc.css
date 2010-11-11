@@ -372,6 +372,7 @@ border-top: 1px solid #7c7561;
 border-bottom: 1px solid #7c7561;
 }
 
+
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:focus, dl.portlet dt a:hover {
 border:medium none;
 color:#ffd531; /*#d79900;*/
@@ -379,7 +380,7 @@ display:block;
 }
 
 dl.portlet a:link, dl.portlet a:visited {
-color:#ff7600;
+color:#ffd531;
 border-bottom:none;
 }
 
@@ -393,9 +394,9 @@ border-top: 1px solid #7c7561;
 padding:1em 1em 1em 20px;
 }
 
-#portlet_recent dd a{
+#portlet_derniere_publication dd a{
 padding-left:13px;
-background-image:url(fleche_recent.png);
+background-image:url(ul.gif); /*(fleche_recent.png);*/
 background-repeat:no-repeat;
 background-position:left center;
 }
