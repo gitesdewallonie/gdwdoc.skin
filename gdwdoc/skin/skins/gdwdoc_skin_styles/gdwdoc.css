@@ -504,4 +504,61 @@ color:#444;
 font:bold 1.25em "Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left:0;
 margin-right:150px;
+} 
+
+
+/*barre verte edit*/
+#edit-bar, #content ul.formTabs {
+-moz-border-radius-topleft:0em;
+-moz-border-radius-topright:0em;
+border-style:none;
+display:block;
+margin-left:0;
+}
+
+#edit-bar {
+background-image:url(edit_menu_bckg.png);
+background-color:transparent;
+border:0em solid #75AD0A;
+font-size:80%;
+margin-bottom:1em;
+min-height:2em;
+}
+
+#content-views {
+background-color:transparent;
+float:left;
+}
+
+#contentActionMenus {
+background-color:transparent;
+background-image:url(edit_action_menu_bckg.png);
+float:right;
+margin:0;
+}
+
+dl.actionMenu {
+background-image:url(none);
+float:right;
+position:relative;
+white-space:nowrap;
+}
+
+#contentActionMenus dl.actionMenu.activated dd {
+background-color:transparent;
+background-image:url(edit_action_menu_bckg.png);
+color:White;
+font-weight:bold;
+z-index:5;
+border-left:1px solid #8da375;
+border-right:1px solid #8da375;
+}
+
+#contentActionMenus dl.actionMenu a{
+background-color:transparent;
+}
+
+#contentActionMenus dl.actionMenu.activated dd {
+border-bottom:0.5em solid #8da375;
+right:-3px;
 }
