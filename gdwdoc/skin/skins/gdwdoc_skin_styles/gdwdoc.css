@@ -509,8 +509,8 @@ margin-right:150px;
 
 /*barre verte edit*/
 #edit-bar, #content ul.formTabs {
--moz-border-radius-topleft:0em;
--moz-border-radius-topright:0em;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
 border-style:none;
 display:block;
 margin-left:0;
@@ -519,7 +519,8 @@ margin-left:0;
 #edit-bar {
 background-image:url(edit_menu_bckg.png);
 background-color:transparent;
-border:0em solid #75AD0A;
+border-left:3px solid #d7dfce;
+border-right:3px solid #d7dfce;
 font-size:80%;
 margin-bottom:1em;
 min-height:2em;
@@ -533,8 +534,11 @@ float:left;
 #contentActionMenus {
 background-color:transparent;
 background-image:url(edit_action_menu_bckg.png);
+border-left:1px solid #8da375;
+border-right:1px solid #8da375;
 float:right;
 margin:0;
+width:429px;
 }
 
 dl.actionMenu {
@@ -560,5 +564,5 @@ background-color:transparent;
 
 #contentActionMenus dl.actionMenu.activated dd {
 border-bottom:0.5em solid #8da375;
-right:-3px;
+right:-1px;
 }
