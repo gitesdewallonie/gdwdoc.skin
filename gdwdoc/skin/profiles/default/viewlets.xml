@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
+
 <object>
-   <hidden manager="plone.belowcontentbody">
-       <viewlet name="plone.abovecontenttitle.documentactions"/>
+   <hidden manager="plone.belowcontentbody" skinname="GdwDocSkin">
+     <viewlet name="plone.abovecontenttitle.documentactions"/>
    </hidden>
+
+  <order manager="plone.belowcontenttitle" skinname="GdwDocSkin">
+    <viewlet name="plone.abovecontenttitle.documentactions" />
+    <viewlet name="plone.belowcontenttitle.documentbyline" />
+  </order>
+
 </object>

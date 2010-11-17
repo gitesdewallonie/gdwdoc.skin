@@ -220,6 +220,10 @@ background-color:transparent;
 
 .documentActions{
 background-color:transparent;
+position:relative;
+padding-left:560px;
+top:-35px;
+margin-bottom:-20px;
 }
 
 
@@ -565,4 +569,7 @@ background-color:transparent;
 #contentActionMenus dl.actionMenu.activated dd {
 border-bottom:0.5em solid #8da375;
 right:-1px;
+}
+
+#document-action-pdf {
 }

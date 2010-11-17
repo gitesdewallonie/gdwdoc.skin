@@ -9,15 +9,27 @@
         type="zope.publisher.interfaces.browser.IBrowserSkinType"
         name="GdwDocSkin"
         />
+
     <!-- Customize the navigation portlet -->
     <plone:portletRenderer
            portlet="plone.app.portlets.portlets.navigation.INavigationPortlet"
            layer=".interfaces.IGdwDocTheme"
            class=".navigation.MyNavRenderer"
            />
+
     <plone:portletRenderer
            portlet="plone.app.portlets.portlets.recent.IRecentPortlet"
            layer=".interfaces.IGdwDocTheme"
            class=".recent.MyRecentRenderer"
            />
+
+    <!-- Moved document actions viewlet -->
+    <browser:viewlet
+        name="plone.belowcontenttitle.documentactions"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+        class="plone.app.layout.viewlets.content.DocumentActionsViewlet"
+        permission="zope2.View"
+        layer=".interfaces.IGdwDocTheme"
+        />
+
 </configure>
