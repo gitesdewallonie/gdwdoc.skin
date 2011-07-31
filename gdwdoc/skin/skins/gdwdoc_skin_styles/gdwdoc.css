@@ -436,18 +436,22 @@ margin-top:10px;
 width:100%;
 
 }
-#feder-info{
-float:right;
+.partenaire-info{
 color:#999;
 font-size:0.6em;
 font-weight:normal;
-text-align:right;
 margin-bottom:4px;
 margin-right:3px;
 }
-#feder-logo{
+
+#logo-tourisme-wallonie, #logo-wallonie-bruxelles-tourisme, #feder-logo{
 float:right;
 margin-right:5px;
+text-align:center;
+}
+
+#feder-logo img{
+margin:auto;
 }
 
 /*** PLONE ELEMENT ***/
