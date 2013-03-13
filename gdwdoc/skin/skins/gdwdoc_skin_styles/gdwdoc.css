@@ -354,7 +354,7 @@ background-color:#48443b;
 
 #pomme{
 position:relative;
-bottom:0px;    
+bottom:0px;
 border:1px solid #f00;
 }
 
@@ -394,7 +394,7 @@ padding:5px;
 border-top: 1px solid #7c7561;
 }
 
-#portlet_recent dl.portlet dd.portletItem{ 
+#portlet_recent dl.portlet dd.portletItem{
 padding:1em 1em 1em 20px;
 }
 
@@ -433,9 +433,8 @@ margin-top:10px;
 
 
 #partenaire{
-width:100%;
-
 }
+
 .partenaire-info{
 color:#999;
 font-size:0.6em;
@@ -444,9 +443,11 @@ margin-bottom:4px;
 margin-right:3px;
 }
 
-#logo-tourisme-wallonie, #logo-wallonie-bruxelles-tourisme, #feder-logo{
-float:right;
-margin-right:5px;
+#logo-tourisme-wallonie,
+#logo-wallonie-bruxelles-tourisme,
+#feder-logo{
+float:left;
+margin:0px 20px;
 text-align:center;
 }
 
@@ -512,7 +513,7 @@ color:#444;
 font:bold 1.25em "Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left:0;
 margin-right:150px;
-} 
+}
 
 
 /*barre verte edit*/
