@@ -578,3 +578,10 @@ right:-1px;
 
 #document-action-pdf {
 }
+
+/*style table kupu*/
+table.grid td, table.grid th {
+border: 1px solid #888;
+padding: 0.5em;
+}
+
