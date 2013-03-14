@@ -1,18 +1,20 @@
 <rules xmlns="http://namespaces.plone.org/xdv">
 
- 	<replace content='/html/head/title' theme='/html/head/title' />
+  <replace content='/html/head/title' theme='/html/head/title' />
 
-    <prepend content="/html/head/base"   theme="/html/head" />    
+    <prepend content="/html/head/base"   theme="/html/head" />
     <prepend content="/html/head/meta"   theme="/html/head" />
     <prepend content='/html/head/style'  theme='/html/head' />
-    <prepend content='/html/head/script' theme='/html/head' />     
+    <prepend content='/html/head/script' theme='/html/head' />
     <prepend content="/html/head/link"   theme="/html/head" />
 
-    <!-- Copy over the id/class attributes on the body tag, this is important
-	     for Kupu and per-section styling -->
-	<prepend content="/html/body/@class" theme="/html/body" />
-	<prepend content="/html/body/@id"    theme="/html/body" />	
-	<prepend content="/html/body/@dir"   theme="/html/body" />
+    <!--
+    Copy over the id/class attributes on the body tag,
+    this is important for Kupu and per-section styling
+    -->
+    <prepend content="/html/body/@class" theme="/html/body" />
+    <prepend content="/html/body/@id"    theme="/html/body" />
+    <prepend content="/html/body/@dir"   theme="/html/body" />
 
      <!-- Document Content -->
      <copy content="//*[@id='portal-column-content']/*"
