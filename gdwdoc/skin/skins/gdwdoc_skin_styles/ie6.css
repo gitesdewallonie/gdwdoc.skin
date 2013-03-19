@@ -1,0 +1,24 @@
+.input input
+{
+	border: none;
+	background: none;
+	width: 150px;
+	height: 19px;
+	text-indent: 19px;
+}
+
+#bloc1
+{
+	float: left;
+	width: 286px;
+	margin-left: 13px;
+	margin-right: 17px;
+}
+
+#bloc3
+{
+	float: left;
+	width: 256px;
+	margin-left: 13px;
+	margin-right: 17px;
+}
