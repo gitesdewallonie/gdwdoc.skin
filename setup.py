@@ -24,6 +24,8 @@ setup(name='gdwdoc.skin',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.theming',
+          'plone.app.themingplugins',
           'z3c.jbot',
           # -*- Extra requirements: -*-
       ],
@@ -34,5 +36,5 @@ setup(name='gdwdoc.skin',
       target = plone
       """,
       setup_requires=["PasteScript"],
-      paster_plugins = ["ZopeSkel"],
+      paster_plugins=["ZopeSkel"],
       )
