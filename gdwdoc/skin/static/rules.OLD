@@ -1,0 +1,39 @@
+<rules xmlns="http://namespaces.plone.org/xdv">
+
+ 	<replace content='/html/head/title' theme='/html/head/title' />
+
+    <prepend content="/html/head/base"   theme="/html/head" />    
+    <prepend content="/html/head/meta"   theme="/html/head" />
+    <prepend content='/html/head/style'  theme='/html/head' />
+    <prepend content='/html/head/script' theme='/html/head' />     
+    <prepend content="/html/head/link"   theme="/html/head" />
+
+    <!-- Copy over the id/class attributes on the body tag, this is important
+	     for Kupu and per-section styling -->
+	<prepend content="/html/body/@class" theme="/html/body" />
+	<prepend content="/html/body/@id"    theme="/html/body" />	
+	<prepend content="/html/body/@dir"   theme="/html/body" />
+
+     <!-- Document Content -->
+     <copy content="//*[@id='portal-column-content']/*"
+           theme="//*[@id='texte']" />
+
+     <!-- <drop content="*[@class='documentActions']" /> -->
+
+     <!-- Search -->
+     <copy content="//*[@id='portal-searchbox']"
+           theme="//*[@id='search-form']" />
+
+     <!-- Navigation -->
+     <copy content="//*[@class='portlet portletNavigationTree']"
+           theme="//*[@id='navigation']" />
+
+     <!-- Recent portlet -->
+     <copy content="//*[@class='portlet portletCollection']"
+           theme="//*[@id='portlet_derniere_publication']" />
+
+     <!-- Language selector -->
+     <!-- <copy content="//*[@id='portal-languageselector']/*"
+           theme="//*[@id='gdwdoc-languages']" /> -->
+
+</rules>
