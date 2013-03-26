@@ -49,9 +49,17 @@
         <replace css:content-children="#content"
                  css:theme-children="#main-text" />
 
-        
+        <!--
         <replace css:content="#portal-column-one"
                  css:theme-children="#colonne2" />
+        -->
+        
+        <replace css:content=".portletNavigationTree"
+                 css:theme-children="#navigation" />
+                 
+                 
+        <replace css:content="#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f706c6f6e650a6e6f732d6465726e69657265732d7075626c69636174696f6e73"
+                 css:theme-children="#derniere-publication" />
         
     </rules>
 

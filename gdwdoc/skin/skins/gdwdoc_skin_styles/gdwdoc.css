@@ -1,460 +1,4 @@
-/*
-Gites de Wallonie
-Plone Documentation
-
-Affinitic 2010
-www.affinitic.be
-*/
-
-
-body{
-background-color:#E4D8BB;
-padding:0;
-margin:0;
-background-image:url(body-bckg.jpg);
-background-repeat:repeat-x;
-background-position:top;
-}
-
-h1 {
-font-size:2em;
-border-bottom:1px solid #cdc4a6;
-margin-bottom:12px;
-}
-
-h3{
-font-size: 20px;
-color: #FFFFFF;
-font-family: "Helvetica Condensed", Arial;
-margin-bottom: 12px;
-}
-
-h2{
-font-size: 18px;
-color: #48443B;
-font-family: "Helvetica Condensed", Arial;
-margin-bottom: 12px;
-}
-
-p{
-color: #000000;
-font-family: Tahoma, "Trebuchet MS", Arial, serif;
-font-size: 11px;
-margin-bottom: 9px;
-}
-
-/*li{
-color: #48443B;
-font-family: Tahoma, "Trebuchet MS", Arial, serif;
-font-size: 11px;
-margin-bottom: 9px;
-}*/
-
-ul{
-list-style-image: url(ul.gif);
-color:#48443B;
-font:100% Arial,FreeSans,sans-serif;
-}
-
-a img{
-border: none;
-}
-
-a, a:visited{
-color: #b27800;
-text-decoration: underline;
-}
-
-a:hover{
-color: #fff;
-}
-/* Fin de la définition globale */
-
-
-/* Style de page par odre de code */ 
-#mainTexte{
-background-image:url(lecoq2.png);
-background-repeat:no-repeat;
-background-position:right bottom;
-}
-
-#document-toc {
-background-color:#D7CBAE;
-border:1px solid #CDC1A4;
-}
-
-
-.input{
-background-image: url(input.jpg);
-background-repeat: no-repeat;
-width: 186px;
-height: 19px;
-}
-
-.input input{
-border: none;
-background: none;
-width: 150px;
-height: 19px;
-text-indent: 30px;
-}
-
-.input .ok{
-width: 30px;
-height: 19px;
-background-color: #FFFFFF;
-border: 1px black solid;
-color: #999999;
-visibility: hidden;
-}
-
-#recent{
-background-color: #48443B;
-width: 272px;
-}
-
-.gras{
-color: #FF7200;
-font-weight: bold;
-}
-
-.souligne1, #contenu .souligne1{
-color: #FF7200;
-font-weight: bold;
-text-decoration: underline;
-}
-
-.ligne_espace{
-margin-top: 20px;
-margin-bottom: 16px;
-}
-
-#support{
-width: 272px;
-height: 132px;
-}
-
-
-#bloc1{
-float: left;
-width: 260px;
-margin-left: 25px;
-}
-
-#bloc2{
-float: right;
-width: 180px;
-}
-
-#bloc1 p, #bloc3 p{
-color: #48443B;
-}
-
-.ligne_espace2{
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.souligne_simple{
-text-decoration: underline;
-}
-
-#bloc4{
-float: right;
-width: 200px;
-}
-
-#bloc4 h2{
-text-indent: 10px;
-color: #48443B;
-}
-
-#bloc4 p{
-text-indent: 19px;
-color: #48443B;
-}
-
-#bloc4 a{
-color: #48443B;
-}
-
-#bloc3{
-float: left;
-width: 260px;
-margin-left: 25px;
-}
-
-#copyright{
-width: 489px;
-height: 77px;
-overflow: hidden;
-background-color: #000000;
-}
-
-#txt{
-color: #FFFFFF;
-font-family:  Tahoma, "Trebuchet MS", Arial, serif;
-font-size: 11px;
-margin-top: 20px;
-margin-left: 20px;
-}
-
-#texte{
-padding-left: 14px;
-padding-right: 7px;
-background-image:url(bandeau_sup_jambe.png);
-background-repeat:no-repeat;
-background-position:482px 0px;
-}
-
-#texte p{
-color: #48443B;
-}
-
-/****  PLONE ****/
-/* plone document*/
-#contenu{
-width:660px;
-background-color:transparent;
-}
-
-.documentActions{
-background-color:transparent;
-position:relative;
-padding-left:560px;
-top:-35px;
-margin-bottom:-20px;
-}
-
-
-#portal-breadcrumbs {
-font-size:80%;
-margin-bottom:1em;
-margin-top:0px;
-}
-
-#document-toc{
-background-color:#d7cbae;
-border:1px solid #cdc1a4;
-}
-
-#document-toc .portletHeader{
-background-color:transparent;
-border-bottom:1px solid #cdc1a4;
-padding-left:15px;
-}
-dl.toc dt {
-font-weight:normal;
-margin-left:0;
-text-transform:uppercase;
-}
-
-/**** INTERFACE ****/
-#logo-sup{
-width:271px;
-height:63px;
-padding-top:24px;
-background-image:url(fnd_logo_sup.png);
-background-repeat:no-repeat;
-text-align:center;
-color:#fff;
-}
-
-#logo-sup a{
-text-decoration:none;
-color:#ffbb02;
-}
-
-#logo-sup a:hover{
-color:#fff;
-}
-
-
-#left-sup{
-/*background-color:#534e39;*/
-background-image:url(fnd_left_sup.png);
-background-repeat:repeat-x;
-background-position:left 50px;
-}
-
-#gdwdoc{
-background-color:#a69b7f;
-width:980px;
-margin:auto;
-margin-top:48px;
-}
-
-/* navigation menu */
-#navigation{
-background-image:url(fond_navigation_box.png);
-background-repeat:repeat-y;
-}
-
-#navigation .state-published {
-color:#d0c9a1 !important;
-}
-
-#navigation .state-published:hover {
-color:#fff9cf !important;
-}
-
-#navigation .navTreeCurrentItem{
-color:#fff9cf !important;
-} 
-
-#navigation ul{
-list-style-type:none;
-list-style-image:none;
-font-variant:small-caps;
-font-size:1.3em;
-}
-
-dl.portlet ul.navTreeLevel0 > .navTreeItem {
-background-image:url(line_menu.png);
-background-repeat:no-repeat;
-background-position:center bottom;
-border-bottom:none;
-line-height:2em;
-padding:0.25em 53px;
-}
-
-dl.portlet ul.navTree .navTreeCurrentItem  {
-background-color:transparent;
-border-left:1em solid transparent;
-margin-left:-1em;
-margin-right:-1em;
-}
-
-dl.portlet a{
-text-decoration:none;
-}
-
-dl.portlet a:hover{
-color:#fff9cf !important;
-}
-
-.state-published  {
-color:#d0c9a1 !important;
-}
-
-
-#gdwdoc-languages a{
-color:#aaa;
-text-decoration:none;
-}
-
-#gdwdoc-languages a:hover{
-color:#ff7200;
-text-decoration:none;
-}
-
-#portlet-bas{
-background-color:#48443b;
-}
-
-#pomme{
-position:relative;
-bottom:0px;    
-border:1px solid #f00;
-}
-
-#portlet_derniere_publication {
-/*background-image:url(fond_navigation_box.png);*/
-background-image:url(bg_portlet_recent.png);
-background-repeat:repeat-y;
-background-color:#48443b;
-margin:50px 3px 5px 4px;
-padding-top:7px;
-}
-
-dl.portlet dt, div.portletHeader {
-background:none repeat scroll 0 0  #918b76; /*transparent;*/ /*#655F4A;*/
-line-height:2.5em;
-padding:0 1em;
-text-align:right;
-border-top: 1px solid #7c7561;
-border-bottom: 1px solid #7c7561;
-}
-
-
-dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:focus, dl.portlet dt a:hover {
-border:medium none;
-color:#ffd531; /*#d79900;*/
-display:block;
-}
-
-dl.portlet a:link, dl.portlet a:visited {
-color:#ffd531;
-border-bottom:none;
-}
-
-dl.portlet dd.portletFooter{
-text-align:right;
-padding:5px;
-border-top: 1px solid #7c7561;
-}
-
-#portlet_recent dl.portlet dd.portletItem{ 
-padding:1em 1em 1em 20px;
-}
-
-#portlet_derniere_publication dd a{
-padding-left:13px;
-background-image:url(ul.gif); /*(fleche_recent.png);*/
-background-repeat:no-repeat;
-background-position:left center;
-}
-
-#portlet_recent dd.portletFooter a{
-background-image:none;
-}
-
-#colonne-left-zone-portlet{
-background-color:#48443b;
-}
-
-#colonne-left-footer{
-background-color:#48443b;
-vertical-align:bottom;
-padding-bottom:13px;
-}
-
-#logo-gdw{
-margin:auto;
-width:110px;
-}
-
-#gdw-coordonnee{
-color:#aaa;
-font-size:0.8em;
-text-align:center;
-margin-top:10px;
-}
-
-
-#partenaire{
-width:100%;
-
-}
-.partenaire-info{
-color:#999;
-font-size:0.6em;
-font-weight:normal;
-margin-bottom:4px;
-margin-right:3px;
-}
-
-#logo-tourisme-wallonie, #logo-wallonie-bruxelles-tourisme, #feder-logo{
-float:right;
-margin-right:5px;
-text-align:center;
-}
-
-#feder-logo img{
-margin:auto;
-}
-
-/*** PLONE ELEMENT ***/
+/*** PLONE ***/
 #content-core{
 }
 
@@ -514,25 +58,107 @@ margin-left:0;
 margin-right:150px;
 } 
 
-
-/*barre verte edit*/
-#edit-bar, #content ul.formTabs {
--moz-border-radius-topleft:3px;
--moz-border-radius-topright:3px;
-border-style:none;
-display:block;
-margin-left:0;
+.documentActions{
+background-color:transparent;
+position:relative;
+padding-left:560px;
+top:-35px;
+margin-bottom:-20px;
 }
 
-#edit-bar {
-background-image:url(edit_menu_bckg.png);
-background-color:transparent;
-border-left:3px solid #d7dfce;
-border-right:3px solid #d7dfce;
+
+#portal-breadcrumbs {
 font-size:80%;
 margin-bottom:1em;
-min-height:2em;
+margin-top:0px;
 }
+
+#document-toc{
+background-color:#d7cbae;
+border:1px solid #cdc1a4;
+}
+
+#document-toc .portletHeader{
+background-color:transparent;
+border-bottom:1px solid #cdc1a4;
+padding-left:15px;
+}
+
+dl.toc dt {
+font-weight:normal;
+margin-left:0;
+text-transform:uppercase;
+}
+
+
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+background-image:url(line_menu.png);
+background-repeat:no-repeat;
+background-position:center bottom;
+border-bottom:none;
+line-height:2em;
+padding:0.25em 53px;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem  {
+background-color:transparent;
+border-left:1em solid transparent;
+margin-left:-1em;
+margin-right:-1em;
+}
+
+dl.portlet a{
+text-decoration:none;
+}
+
+dl.portlet a:hover{
+color:#fff9cf !important;
+}
+
+.state-published  {
+color:#d0c9a1 !important;
+}
+
+dl.portlet dt, div.portletHeader {
+background:none repeat scroll 0 0  #918b76;
+line-height:2.5em;
+padding:0 1em;
+text-align:right;
+border-top: 1px solid #7c7561;
+border-bottom: 1px solid #7c7561;
+}
+
+
+dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:focus, dl.portlet dt a:hover {
+border:medium none;
+color:#ffd531; /*#d79900;*/
+display:block;
+}
+
+dl.portlet a:link, dl.portlet a:visited {
+color:#ffd531;
+border-bottom:none;
+}
+
+dl.portlet dd.portletFooter{
+text-align:right;
+padding:5px;
+border-top: 1px solid #7c7561;
+}
+
+#derniere-publication dl.portlet dd.portletItem{
+width:80%; 
+margin:auto;
+padding:1em 1em 1em 20px;
+border-bottom: 2px ridge rgba(80, 78, 68, 0.7);
+}
+
+#derniere-publication dd.portletFooter a{
+background-image:none;
+color:#ff7200;
+}
+
 
 #content-views {
 background-color:transparent;
@@ -559,7 +185,7 @@ white-space:nowrap;
 #contentActionMenus dl.actionMenu.activated dd {
 background-color:transparent;
 background-image:url(edit_action_menu_bckg.png);
-color:White;
+color:#ffffff;
 font-weight:bold;
 z-index:5;
 border-left:1px solid #8da375;
@@ -575,5 +201,24 @@ border-bottom:0.5em solid #8da375;
 right:-1px;
 }
 
-#document-action-pdf {
+
+
+
+/*** EDIT BAR barre verte menu edition ***/
+#edit-bar, #content ul.formTabs {
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+border-style:none;
+display:block;
+margin-left:0;
+}
+
+#edit-bar {
+background-image:url(edit_menu_bckg.png);
+background-color:transparent;
+border-left:3px solid #d7dfce;
+border-right:3px solid #d7dfce;
+font-size:80%;
+margin-bottom:1em;
+min-height:2em;
 }

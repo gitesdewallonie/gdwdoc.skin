@@ -23,19 +23,62 @@ font-family:helvetica, arial, verdana, sans-serif;
 font-size:12pt;
 }
 
-ul, li{
-margin:0;
-padding:0;
+li{
+list-style-type:none;
+font-family: Tahoma, "Trebuchet MS", Arial, serif;
+font-size: 11px;
+margin-bottom: 9px;
 }
 
-a{
-text-decoration:none;
-color:#000;
-}
 
 .break-float{
 clear:both;
 }
+
+h1 {
+font-size:2em;
+border-bottom:1px solid #cdc4a6;
+margin-bottom:12px;
+}
+
+h3{
+font-size: 20px;
+color: #FFFFFF;
+font-family: "Helvetica Condensed", Arial;
+margin-bottom: 12px;
+}
+
+h2{
+font-size: 18px;
+color: #48443B;
+font-family: "Helvetica Condensed", Arial;
+margin-bottom: 12px;
+}
+
+p{
+color: #000000;
+font-family: Tahoma, "Trebuchet MS", Arial, serif;
+font-size: 11px;
+margin-bottom: 9px;
+}
+
+a img{
+border: none;
+}
+
+a, a:visited{
+color: #b27800;
+text-decoration: underline;
+}
+
+a:hover{
+color: #fff;
+}
+
+
+
+
+/*** INTERFACE ***/
 
 #wrapper{
 width:943px;
@@ -72,9 +115,10 @@ border-radius:18px 18px 0px 0px;
 
 /*colonne3*/
 .colonne + .colonne + .colonne {
+vertical-align:top;
 width:690px;
 background:url(images/bg_colonne3.png) no-repeat left 100px,
-           url(images/bandeau_sup_jambe.png) no-repeat 454px 272px;
+           url(images/bandeau_sup_jambe.png) no-repeat 475px 272px;
 background-color:rgba(72,68,59,0);
 padding:10px;
 }
@@ -186,15 +230,9 @@ font-size:0.8em;
 color:#ffd36d;
 }
 
-
-
-
 div#main-content{
     
 }
-
-
-
 
 div#footer{
 background-color:#000;
@@ -205,7 +243,7 @@ div#logo{
 float:left;
 width:270px;
 height:125px;
-margin-left:20px;
+margin-left:11px;
 background-color:rgba(72,68,59,0.7);
 border-radius:0px 0px 18px 18px;
 background-image:url(images/logoGDW_web2.png); 
@@ -388,6 +426,12 @@ right:-1px;
 
 #document-action-pdf {
 }
+
+div.documentActions ul{
+list-style-image: url(images/li.gif);
+}
+
+
 
 /*style table kupu*/
 table.grid td, table.grid th {

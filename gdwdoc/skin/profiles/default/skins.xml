@@ -14,11 +14,11 @@
 
  <skin-path name="GdwDocSkin" based-on="Sunburst Theme">
   <layer name="gdwdoc_skin_images"
-     insert-after="custom"/>
+         insert-after="custom"/>
   <layer name="gdwdoc_skin_styles"
-     insert-after="gdwdoc_skin_images"/>
+         insert-after="gdwdoc_skin_images"/>
   <layer name="gdwdoc_skin_templates"
-     insert-after="gdwdoc_skin_styles"/>
+         insert-after="gdwdoc_skin_styles"/>
  </skin-path>
 
 </object>
