@@ -26,7 +26,7 @@
         <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
         <!-- Logo link -->
-        <copy attributes="href" css:content="#portal-logo" css:theme="#logo .logo-link" />
+        <copy attributes="href" css:content="#portal-logo" css:theme="#logo" />
 
         <replace css:content-children="#user-name"
                  css:theme-children="#username" />
