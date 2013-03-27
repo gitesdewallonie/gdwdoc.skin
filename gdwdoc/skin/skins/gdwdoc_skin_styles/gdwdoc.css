@@ -1,4 +1,19 @@
 /*** PLONE ***/
+
+#plone-document-byline{
+margin-bottom:18px;
+font-size:0.8em;
+}
+
+#portal-breadcrumbs{
+color:#555;
+}
+
+#parent-fieldname-description{
+color:#555;
+margin-bottom:15px;
+}
+
 #content-core{
 }
 
