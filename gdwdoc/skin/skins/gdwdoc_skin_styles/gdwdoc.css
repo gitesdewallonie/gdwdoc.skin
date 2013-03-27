@@ -67,14 +67,15 @@ background-repeat:no-repeat;
 background-position:12px center;
 }
 
-.contenttype-folder {
-background-image:url(images/fleche.gif) !important;
+#content-core .contenttype-folder {
+background-image:url(fleche.gif) !important;
 background-repeat:no-repeat;
 background-position:3px center;
+padding-left: 15px !important;
 }
 
-.contenttype-folder:hover {
-background-image:url(images/fleche.gif) !important;
+#content-core .contenttype-folder:hover {
+background-image:url(fleche.gif) !important;
 }
 
 
