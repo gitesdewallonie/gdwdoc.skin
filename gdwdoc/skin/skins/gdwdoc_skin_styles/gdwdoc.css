@@ -27,6 +27,10 @@ list-style-type: square;
 margin-left: 20px;
 }
 
+#content ul {
+list-style-type: none;
+}
+
 #content-core ul li, #main-text ul.configlets li {
 display: list-item !important;
 list-style-image : url(ul.gif);
@@ -51,9 +55,10 @@ font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left:18px;
 }
 
-#content-core .description {
+#content #content-core .description {
 margin-left:20px;
 font-style: italic;
+font-weight:normal;
 }
 
 #content-core dl dd {
