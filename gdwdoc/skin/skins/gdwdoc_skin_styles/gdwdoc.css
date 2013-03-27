@@ -5,7 +5,7 @@ color: #76797C;
 }
 
 #plone-document-byline{
-margin-bottom:18px;
+margin-bottom:0px;
 font-size:0.8em;
 }
 
@@ -90,8 +90,8 @@ margin-right:150px;
 background-color:transparent;
 position:relative;
 padding-left:560px;
-top:-35px;
-margin-bottom:-20px;
+top:-50px;
+margin-bottom:0px;
 }
 
 
