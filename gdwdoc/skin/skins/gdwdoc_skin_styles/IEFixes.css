@@ -35,7 +35,7 @@ float:left;
 div#colonne1{
 width:20px;
 height:262px;
-background-image:url(images/bg_colonne1.png);
+background-image:url(bg_colonne1.png);
 background-repeat:no-repeat;
 background-position:left 100px;
 }
@@ -44,7 +44,7 @@ background-position:left 100px;
 div#colonne2{
 width:270px;
 height:1300px;
-background-image:url(images/bg_colonne2.png);
+background-image:url(bg_colonne2.png);
 background-repeat:repeat-x;
 background-position:left 100px;
 background-color:#787263;
@@ -52,8 +52,8 @@ background-color:#787263;
 
 /*colonne3*/
 div#colonne3{
-width:490px;
-background-image:url(images/bg_colonne3.png);
+width:630px;
+background-image:url(bg_colonne3.png);
 background-repeat:no-repeat;
 /*background-position:left 100px;*/
 padding:10px;
