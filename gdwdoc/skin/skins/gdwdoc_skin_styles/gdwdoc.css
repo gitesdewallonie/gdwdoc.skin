@@ -51,6 +51,15 @@ font-family:"Helvetica Neue",Arial,FreeSans,sans-serif;
 margin-left:18px;
 }
 
+#content-core .description {
+margin-left:20px;
+font-style: italic;
+}
+
+#content-core dl dd {
+margin-bottom: 7px;
+}
+
 #content a:link{
 border-bottom:none;
 }
