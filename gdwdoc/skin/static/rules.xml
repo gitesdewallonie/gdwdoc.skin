@@ -31,17 +31,17 @@
         <replace css:content-children="#user-name"
                  css:theme-children="#username" />
 
-        <!--
-        <replace css:content-children="#portal-breadcrumbs"
-                 css:theme-children="#breadcrumb" />
-        -->
+        <before css:content-children="#portal-breadcrumbs"
+                css:theme-children="#main-text" />
+
+        <before css:content="#kssPortalMessage"
+                css:theme-children="#main-text" />
+
+        <before css:content="#edit-bar"
+                css:theme-children="#main-text" />
+
         <replace css:content-children="#portal-siteactions"
                  css:theme-children="#site-action" />
-
-        <!--         
-        <replace css:content-children="#portal-personaltools-wrapper"
-                 css:theme-children="#personal-tools" />
-        -->
         
         <replace css:content-children="#portal-searchbox"
                  css:theme-children="#top-search" />
@@ -49,17 +49,11 @@
         <replace css:content-children="#content"
                  css:theme-children="#main-text" />
 
-        <!--
-        <replace css:content="#portal-column-one"
-                 css:theme-children="#colonne2" />
-        -->
-        
         <replace css:content=".portletNavigationTree"
                  css:theme-children="#navigation" />
-                 
-                 
-        <replace css:content="#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f706c6f6e650a6e6f732d6465726e69657265732d7075626c69636174696f6e73"
-                 css:theme-children="#derniere-publication" />
+                                  
+        <replace css:content=".portlet-collection-nos-dernieres-publications"
+                 css:theme-children="#portletwrapper-publications" />
         
     </rules>
 
