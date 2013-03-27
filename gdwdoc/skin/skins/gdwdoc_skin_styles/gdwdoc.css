@@ -56,6 +56,7 @@ border-bottom:none;
 border-bottom:none;
 }
 
+
 .contenttype-document {
 background-image:url(ul.gif);
 background-repeat:no-repeat;
@@ -63,14 +64,15 @@ background-position:12px center;
 }
 
 .contenttype-folder {
-background-image:url(fleche.png);
+background-image:url(images/fleche.gif) !important;
 background-repeat:no-repeat;
 background-position:3px center;
 }
 
 .contenttype-folder:hover {
-background-image:url(fleche_over.png);
+background-image:url(images/fleche.gif) !important;
 }
+
 
 #content-core{
 color:#48443B;
@@ -115,8 +117,6 @@ font-weight:normal;
 margin-left:0;
 text-transform:uppercase;
 }
-
-
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
 background-image:url(line_menu.png);
@@ -229,22 +229,6 @@ border-bottom:none;
 #content a:visited{
 /*color:#779;*/
 border-bottom:none;
-}
-
-.contenttype-document {
-background-image:url(ul.gif);
-background-repeat:no-repeat;
-background-position:12px center;
-}
-
-.contenttype-folder {
-background-image:url(fleche.png);
-background-repeat:no-repeat;
-background-position:3px center;
-}
-
-.contenttype-folder:hover {
-background-image:url(fleche_over.png);
 }
 
 #content-core{
