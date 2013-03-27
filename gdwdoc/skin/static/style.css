@@ -74,11 +74,34 @@ a:hover{
 color: #fff;
 }
 
+/*** INTERFACE LARGE ***/
+#titre-site-large{
+float:left;
+margin-left:20px;
+}
+#top-search-large{
+float:right;
+}
+#header-large{
+width:940px;
+height:181px;
+background-image:url(images/bandeau_sup_large.png);
+background-repeat:no-repeat;
+margin-top:70px;
+}
+#main-text-large{
+position:relative;
+top:-10px;
+width:100%;
+min-height:400px;
+background-image:url(images/bandeau_sup_jambe.png);
+background-repeat:no-repeat;
+background-position:748px top;
+}
 
 
 
 /*** INTERFACE ***/
-
 #wrapper{
 width:943px;
 min-height:500px;
@@ -246,11 +269,8 @@ background-repeat: no-repeat;
 }
 
 
-
-
 /*** MAIN-TEXT ***/
 div#main-text{
-    
 }
 
 
