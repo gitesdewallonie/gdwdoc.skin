@@ -18,7 +18,14 @@ color:#555;
 margin-bottom:15px;
 }
 
-#content-core{
+#content-core ul {
+list-style-type: square;
+margin-left: 20px;
+}
+
+#content-core ul li {
+display: list-item;
+list-style-image : url(ul.gif);
 }
 
 #content .state-published {
@@ -263,3 +270,6 @@ border: 1px solid #888;
 padding: 0.5em;
 }
 
+.mceIframeContainer {
+background-color: #FFFFFF;
+}
