@@ -2,26 +2,25 @@
 <object name="portal_css">
 
 <stylesheet title=""
-    id="gdwdoc.css"
-    media="screen"
-    rel="stylesheet"
-    rendering="link"
-    cacheable="True"
-    compression="safe"
-    cookable="True"
-    enabled="1"
-    expression=""/>
+            id="gdwdoc.css"
+            media="screen"
+            rel="stylesheet"
+            rendering="link"
+            cacheable="True"
+            compression="safe"
+            cookable="True"
+            enabled="1"
+            expression=""/>
 
- <stylesheet title=""
-             id="++theme++gdwdoc.skin/style.css"
-             media="screen"
-             rel="stylesheet"
-             rendering="link"
-             cacheable="True"
-             compression="safe"
-             cookable="True"
-             enabled="1"
-             applyPrefix="True"
-             expression="request/HTTP_X_THEME_ENABLED | nothing"/>
-
+<stylesheet title=""
+            id="++theme++gdwdoc.skin/style.css"
+            media="screen"
+            rel="stylesheet"
+            rendering="link"
+            cacheable="True"
+            compression="safe"
+            cookable="True"
+            enabled="1"
+            applyPrefix="True"
+            expression="request/HTTP_X_THEME_ENABLED | nothing"/>
 </object>
