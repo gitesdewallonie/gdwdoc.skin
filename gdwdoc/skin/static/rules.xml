@@ -5,7 +5,13 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <rules css:if-content="#visual-portal-wrapper">
-        <theme href="index.html" />
+
+        <rules if="$have_portlets">
+            <theme href="index.html" />
+        </rules>
+        <rules if-not="$have_portlets">
+            <theme href="index-large.html" />
+        </rules>
 
         <!-- Common Plone rules -->
         <drop theme="/html/head/meta" />
