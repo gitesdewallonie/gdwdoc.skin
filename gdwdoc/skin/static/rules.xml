@@ -22,7 +22,6 @@
             theme-children="/html/head"
             />
 
-
         <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
         <!-- Logo link -->
@@ -31,7 +30,7 @@
         <replace css:content-children="#user-name"
                  css:theme-children="#username" />
 
-        <before css:content-children="#portal-breadcrumbs"
+        <before css:content="#portal-breadcrumbs"
                 css:theme-children="#main-text" />
 
         <before css:content="#kssPortalMessage"
