@@ -4,6 +4,10 @@
 color: #76797C;
 }
 
+#searchbox_currentfolder_only {
+margin-right: 5px;
+}
+
 #plone-document-byline{
 margin-bottom:0px;
 font-size:0.8em;
@@ -18,13 +22,13 @@ color:#555;
 margin-bottom:15px;
 }
 
-#content-core ul {
+#content-core ul, #main-text ul.configlets {
 list-style-type: square;
 margin-left: 20px;
 }
 
-#content-core ul li {
-display: list-item;
+#content-core ul li, #main-text ul.configlets li {
+display: list-item !important;
 list-style-image : url(ul.gif);
 }
 
