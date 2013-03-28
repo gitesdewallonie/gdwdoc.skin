@@ -372,6 +372,41 @@ padding: 4px;
 border-radius: 4px;
 }
 
+#LSResult {
+background-color: transparent;
+left: 950px;
+width:25em;
+}
+
+#LSResult .livesearchContainer {
+margin: -28px 0px 0px 0px;
+text-align: left;
+background-color: #FFFFFF;
+opacity:0.94;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+width:25em;
+position: relative;
+z-index: 1;
+}
+
+#livesearchLegend {
+padding: 32px 0.3em 0.3em;
+background-color: transparent;
+color: #FF8100;
+font-weight: bold;
+}
+
+.LSRow, #LSNothingFound {
+padding: 0.1em 1em;
+margin-bottom: 5px;
+}
+
+#LSResult .livesearchContainer a:hover{
+color: #FF8100;
+}
+
 .fieldRequired {
 color: red;
 }
