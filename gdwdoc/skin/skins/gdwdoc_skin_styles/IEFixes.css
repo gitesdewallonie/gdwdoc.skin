@@ -78,7 +78,7 @@ div#header{
 height:181px;
 }
 
-div#main-text{
+#table-content.normal div#main-text{
 position:relative;
 top:-10px;
 background-image:url(bandeau_sup_jambe.png);

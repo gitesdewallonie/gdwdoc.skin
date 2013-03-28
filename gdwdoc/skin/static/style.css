@@ -79,9 +79,11 @@ color: #fff;
 float:left;
 margin-left:20px;
 }
+
 #top-search-large{
 float:right;
 }
+
 #header-large{
 width:940px;
 height:181px;
@@ -89,7 +91,8 @@ background-image:url(images/bandeau_sup_large.png);
 background-repeat:no-repeat;
 margin-top:70px;
 }
-#main-text-large{
+
+#table-content.large div#main-text{
 position:relative;
 top:-10px;
 width:100%;
@@ -266,11 +269,6 @@ background-repeat: no-repeat;
 }
 
 #derniere-publication dd.portletFooter a{
-}
-
-
-/*** MAIN-TEXT ***/
-div#main-text{
 }
 
 
