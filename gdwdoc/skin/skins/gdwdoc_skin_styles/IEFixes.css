@@ -171,3 +171,17 @@ div.optionsBox {
 .optionsBox input {
     !margin: 0px;
 }
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+border-bottom:1px solid #555;
+line-height:2em;
+padding:0.25em 53px;
+}
+
+#LSResult {
+background: none repeat scroll 0 0 White;
+margin: -1.5em 0 0 -11em;
+position: absolute;
+right: 50px;
+top:140px;
+}

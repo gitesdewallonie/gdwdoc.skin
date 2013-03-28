@@ -9,6 +9,13 @@ color: #76797C;
 margin-right: 5px;
 }
 
+#LSResult {
+background: none repeat scroll 0 0 White;
+margin: -1.5em 0 0 -11em;
+position: absolute;
+right: 50px;
+}
+
 #plone-document-byline{
 margin-bottom:0px;
 font-size:0.8em;
