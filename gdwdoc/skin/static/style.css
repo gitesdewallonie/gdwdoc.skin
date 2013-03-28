@@ -164,6 +164,12 @@ height:70px;
 color:#ff9400;
 text-align:center;
 padding-top:30px;
+text-decoration: none;
+}
+
+#sitelogo,
+#sitelogo:hover {
+text:decoration:none;
 }
 
 div#top-search{
