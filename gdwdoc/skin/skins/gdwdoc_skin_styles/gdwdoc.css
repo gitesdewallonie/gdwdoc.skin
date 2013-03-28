@@ -82,14 +82,14 @@ background-position:12px center;
 }
 
 #content-core .contenttype-folder {
-background-image:url(fleche.gif) !important;
+background-image:url(fleche_recent.png) !important;
 background-repeat:no-repeat;
 background-position:3px center;
 padding-left: 15px !important;
 }
 
 #content-core .contenttype-folder:hover {
-background-image:url(fleche.gif) !important;
+background-image:url(fleche_recent.png) !important;
 }
 
 
