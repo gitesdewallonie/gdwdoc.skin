@@ -138,10 +138,7 @@ text-transform:uppercase;
 }
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
-background-image:url(line_menu.png);
-background-repeat:no-repeat;
-background-position:center bottom;
-border-bottom:none;
+border-bottom:1px solid rgba(43, 40, 31, 0.1);
 line-height:2em;
 padding:0.25em 53px;
 }
