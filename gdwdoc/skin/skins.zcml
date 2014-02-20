@@ -6,6 +6,5 @@
   <!-- File System Directory Views registration -->
   <cmf:registerDirectory name="gdwdoc_skin_images"/>
   <cmf:registerDirectory name="gdwdoc_skin_styles"/>
-  <cmf:registerDirectory name="gdwdoc_skin_templates"/>
 
 </configure>
