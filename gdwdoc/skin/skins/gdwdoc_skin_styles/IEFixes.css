@@ -94,11 +94,11 @@ min-height:200px;
 div#logo{
 float:left;
 width:270px;
-height:125px;
+height:155px;
 margin-left:20px;
-background-color:rgba(72,68,59,0.7);
+background-color:#767060;
 border-radius:0px 0px 18px 18px;
-background-image:url(images/logoGDW_web2.png); 
+background-image:url(images/logo_gdw.png);
 background-repeat:no-repeat;
 background-position:center 10px;   
 }
