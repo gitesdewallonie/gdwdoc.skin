@@ -27,6 +27,8 @@ setup(name='gdwdoc.skin',
           'plone.app.theming',
           'plone.app.themingplugins',
           'z3c.jbot',
+          'python-ldap',
+          'Products.PloneLDAP',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
